@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main() {
+    float score_1, score_2 ;
+    
+    printf("ENTER GAME SCORES \n");
+    
+    printf("score_1 = ");
+    scanf("%f" , &score_1);
+    
+    printf("score_2 = ");
+    scanf("%f" , &score_2);
+    
+    if(score_1 > score_2)
+    printf("player_1 WINS!!!!!");
+    else
+    printf("player_2 WINS!!!!!");   
+    
+    return 0;
+}
